@@ -13,7 +13,7 @@
 <body>
 
     <!-- Awal Navigasi Bagia Atas, Search Box contohnya -->
-	<nav class="flex items-center justify-between flex-wrap bg-green-lighter p-2">
+	<nav class="flex items-center justify-between flex-wrap bg-green-light p-2">
          <div class="flex items-center flex-no-shrink text-black pl-4 mr-6">
              <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
                  <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/>
@@ -24,13 +24,13 @@
         <!-- Bagian Awal Button Doc,Exam, Blog -->
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
             <div class="text-sm lg:flex-grow">
-              <a href="#responsive-header" class="no-underline bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white m-4 py-2 px-4 border border-blue hover:border-transparent rounded">
+              <a href="#responsive-header" class="no-underline bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white m-4 py-2 px-4 border-2 border-blue hover:border-transparent rounded">
                 Docs
               </a>
-              <a href="#responsive-header" class="no-underline bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white m-4 py-2 px-4 border border-blue hover:border-transparent rounded">
+              <a href="#responsive-header" class="no-underline bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white m-4 py-2 px-4 border-2 border-blue hover:border-transparent rounded">
                 Examples
               </a>
-              <a href="#responsive-header" class="no-underline bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white m-4 py-2 px-4 border border-blue hover:border-transparent rounded">
+              <a href="#responsive-header" class="no-underline bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white m-4 py-2 px-4 border-2 border-blue hover:border-transparent rounded">
                 Blog
               </a>
             </div>
@@ -75,8 +75,8 @@
 
     <!-- Awal Isi bagian Body -->
     <div id="wrapper" class="flex h-screen bg-grey-lightest sm:flex-col md:flex-row font-light w-full pr-5 mt-1">
-       <div id="sidebar" class="bg-orange-darker md:w-64 sm:w-screen">
-            <header class="flex justify-between items-center border-b border-orange-darkest pt-8 pb-8 pl-6 pr-6">
+       <div id="sidebar" class="bg-green md:w-64 sm:w-screen">
+            <header class="flex justify-between items-center border-b border-white pt-8 pb-8 pl-6 pr-6">
                 <div id="logo" class="no-underline text-white md:text-2xl sm:text-4xl font-bold">
                     <img src="https://files.slack.com/files-pri/T5Q1A6MC6-FC164U14N/logo_whizkids_baru_kemeja.png" width="50" alt="">
                         DevSubang
@@ -85,7 +85,7 @@
                     <i class="fa fa-bars" aria-hidden="true"></i>
                 </div>
             </header>
-            <div id="profile" class="flex items-center border-b border-orange-darkest px-8 py-6">
+            <div id="profile" class="flex items-center border-b border-white px-8 py-6">
                 <div id="img" class="w-1/4">
                     <img src="https://avatars3.githubusercontent.com/u/40782378?s=400&u=ef41e525045df98a415de30a041a7362f9213222&v=4" width="55" alt="" class="rounded-full">
                 </div>
@@ -96,46 +96,46 @@
             </div>
             <ul id="menu" class="flex flex-col list-reset sm:hidden md:block">
                 <li class="block">
-                    <a href="#" class="no-underline text-white block h-full w-full border-b border-orange-darkest px-8 py-4 hover:text-orange">
+                    <a href="#" class="no-underline text-white block h-full w-full border-b border-white px-8 py-4 hover:text-orange">
                         <i class="fa fa-tachometer mr-2" aria-hidden="true"></i>
                         Dashboard
                     </a>
                 </li>
                 <li class="flex justify-between block">
-                    <a href="#" class="no-underline text-white block h-full w-full border-b border-orange-darkest px-8 py-4 hover:text-orange">
+                    <a href="#" class="no-underline text-white block h-full w-full border-b border-white px-8 py-4 hover:text-orange">
                         <i class="fa fa-user mr-2" aria-hidden="true"></i>
                         Account
                         <i class="fa fa-angle-right float-right" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li class="block">
-                    <a href="#" class="no-underline text-white block h-full w-full border-b border-orange-darkest px-8 py-4 hover:text-orange">
+                    <a href="#" class="no-underline text-white block h-full w-full border-b border-white px-8 py-4 hover:text-orange">
                         <i class="fa fa-envelope mr-2" aria-hidden="true"></i>
                         MailBox
                         <i class="fa fa-angle-down float-right" aria-hidden="true"></i>
                     </a>
-                    <ul class="flex flex-col list-reset bg-orange-darkest block">
-                        <li class="flex block border-b border-orange-darker">
+                    <ul class="flex flex-col list-reset bg-green block">
+                        <li class="flex block border-b border-white">
                             <a href="#" class="no-underline text-white block h-full w-full ml-4 hover:text-orange px-8 py-4">
                                 <i class="fa fa-envelope-o mr-2" aria-hidden="true"></i>
                                 Inbox
                             </a>
                         </li>
-                        <li class="flex block border-b border-orange-darker">
+                        <li class="flex block border-b border-white">
                             <a href="#" class="no-underline text-white block h-full w-full ml-4 hover:text-orange px-8 py-4">
                                 <i class="fa fa-envelope-o mr-2" aria-hidden="true"></i>
                                 Categories
                                 <i class="fa fa-angle-down float-right" aria-hidden="true"></i>
                             </a>
                         </li>
-                        <ul class="flex flex-col list-reset bg-orange-darkest block">
-                            <li class="flex block border-b border-orange-darker">
+                        <ul class="flex flex-col list-reset bg-green block">
+                            <li class="flex block border-b border-white">
                                 <a href="#" class="no-underline text-white block h-full w-full ml-8 hover:text-orange px-8 py-4">
                                     <i class="fa fa-envelope-o mr-2" aria-hidden="true"></i>
                                     Social
                                 </a>
                             </li>
-                            <li class="flex block border-b border-orange-darker">
+                            <li class="flex block border-b border-white">
                                 <a href="#" class="no-underline text-white block h-full w-full ml-8 hover:text-orange px-8 py-4">
                                     <i class="fa fa-envelope-o mr-2" aria-hidden="true"></i>
                                     Notifications
@@ -182,7 +182,6 @@
                         </ul>
                     </div>
                     <!-- Akhir Chat & Ask Free -->
-
                 </div>
             </div>
 
@@ -257,7 +256,7 @@
 
 
     <!-- Footer, Feedback Aboutme DLL -->
-    <section class="no-underline relative pin-x pin-b bg-black py-5 w-full mt-1">
+    <section class="no-underline relative pin-x pin-b bg-black py-5 w-full mt-1 pl-10">
         <div class="container mx-auto px-8">
             <div class="table w-full">
                 <div class="block sm:table-cell">
